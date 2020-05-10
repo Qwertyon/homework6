@@ -125,22 +125,22 @@ body {
   top: 2px;
   cursor: pointer;
 }
-.one::before {
+.alarm::before {
   background-image: url(../img/icons/alarm.png);
 }
-.two::before {
+.graph::before {
   background-image: url(../img/icons/graph.png);
 }
-.three::before {
+.computer::before {
   background-image: url(../img/icons/computer.png);
 }
-.four::before {
+.book::before {
   background-image: url(../img/icons/book.png);
 }
-.five::before {
+.home::before {
   background-image: url(../img/icons/home.png);
 }
-.six::before {
+.square::before {
   background-image: url(../img/icons/quatro.png);
 }
 
@@ -320,12 +320,12 @@ body {
   flex-grow: 1;
   font-size: 15px;
   line-height: 24px;
-  color: #cccccc;
   font-family: "Roboto";
   font-weight: 300;
   font-style: italic;
   border: 1px solid #e7e7e7;
   padding-left: 15px;
+  color: #333333;
 }
 .contact-form__btn {
   flex-basis: 150px;
@@ -337,4 +337,11 @@ body {
   font-weight: 700;
   background-color: #95e1d3;
   border: none;
+}
+
+.contact-form__input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.contact-form__input::-moz-placeholder {
+  color: #cccccc;
 }
